@@ -9,6 +9,8 @@ namespace WebApplication1.Controllers
 {
     public class MovieController : Controller
     {
+    public MivewController()
+    {
         List<Movie> MovieList = new List<Movie>
         {
             new Movie()
@@ -52,6 +54,7 @@ namespace WebApplication1.Controllers
                 Movie_Rating = 9
             }
         };
+       }
 
         //public ActionResult getDetails()
         //{
